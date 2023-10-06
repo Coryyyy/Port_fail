@@ -1,1 +1,1 @@
-# firstday-mini-project
+# CSS-cheatsheet-project
