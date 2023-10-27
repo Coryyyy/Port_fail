@@ -1,0 +1,23 @@
+/* styles.css */
+#portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.item {
+    flex: 1;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.item:hover {
+    transform: scale(1.05);
+}
+
+.item img {
+    width: 100%;
+    display: block;
+}
